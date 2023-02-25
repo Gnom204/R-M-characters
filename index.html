@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./pages/index.css">
+    <title>Rick-and-Morty</title>
+</head>
+
+<body class="page">
+    <header class="header">
+        <h1 class="header__logo">Персонажи Рик и Морти</h1>
+    </header>
+    <main>
+        <div class="profile">
+            <div class="profile__img-container">
+                <img src="./vendor/images/Cat-Rick-and-morty.jpg" alt="#" class="profile__img">
+            </div>
+
+            <table class="table">
+                <tr class="table__string">
+                    <td>name:</td>
+                    <td class="table__name">aboba</td>
+                </tr>
+                <tr class="table__string">
+                    <td>status:</td>
+                    <td class="table__status">abubandit</td>
+                </tr>
+            </table>
+        </div>
+        <form class="form">
+            <select name="select" id="category" class="form__select">
+                <option value="character">Character</option>
+                <!-- <option value="location">Location</option>
+                <option value="episode">Episode</option> -->
+            </select>
+            <fieldset class="form__group">
+                <input class="form__input" type="number" min="0" id="number">
+                <button type="submit" class="form__btn">Посмотреть</button>
+            </fieldset>
+        </form>
+    </main>
+    <script type="module" src="./pages/index.js"></script>
+</body>
+
+</html>
