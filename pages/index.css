@@ -19,3 +19,5 @@
 @import url(../blocks/form/__input/form__input.css);
 @import url(../blocks/form/__btn/form__btn.css);
 @import url(../blocks/form/__group/form__group.css);
+@import url(../blocks/form/__btn/_status/_active/form__btn_status_active.css);
+@import url(../blocks/form/__btn/_status/_inactive/form__btn_status_inactive.css);
